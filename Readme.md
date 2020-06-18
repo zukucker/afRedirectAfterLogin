@@ -1,7 +1,9 @@
-# afRedirectAfterLogin
-## About afRedirectAfterLogin
-This skeleton contains a License file, fileheader and a basic README.
+#Ein einfaches Plugin um einen Redirect nach dem Login zu ermoeglichen.
+##Wie gehts?
+-in der Pluginkonfiguration den absoluten Pfad hinterlegen
+-Speichern und Cache löschen
+-ausprobieren.
 
-## License
+Getestet nur in Vanilla Shopware 5.6.6
 
-Please see [License File](LICENSE) for more information.
+*auch nur als schnelle Hilfe angedacht.
