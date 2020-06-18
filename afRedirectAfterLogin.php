@@ -21,21 +21,21 @@ class afRedirectAfterLogin extends Plugin
 		}
 		public static function getSubscribedEvents(){
 			return [
-							'sAdmin::sLogin::after' => 'onLogin',
+				'sAdmin::sLogin::after' => 'onLogin',
 			];
 		}
 
 		public function onLogin(\Enlight_Hook_HookArgs $args)
 		{
-						$config = $this->container->get('shopware.plugin.cached_config_reader')->getByPluginName($this->getName());
-						$afRedirectAfterLoginDomain = $config['afRedirectAfterLoginDomain'];
-						header("Location:". $afRedirectAfterLoginDomain);
-						$this->forward(
-										[
-														'controller' => '',
-														'action' => ''
-										]
-						);
+			$config = $this->container->get('shopware.plugin.cached_config_reader')->getByPluginName($this->getName());
+			$afRedirectAfterLoginDomain = $config['afRedirectAfterLoginDomain'];
+			header("Location:". $afRedirectAfterLoginDomain);
+			$this->forward(
+							[
+											'controller' => '',
+											'action' => ''
+							]
+			);
 		}
 
 }
