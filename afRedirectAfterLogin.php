@@ -31,10 +31,10 @@ class afRedirectAfterLogin extends Plugin
 			$afRedirectAfterLoginDomain = $config['afRedirectAfterLoginDomain'];
 			header("Location:". $afRedirectAfterLoginDomain);
 			$this->forward(
-							[
-											'controller' => '',
-											'action' => ''
-							]
+				[
+					'controller' => '',
+					'action' => ''
+				]
 			);
 		}
 }
