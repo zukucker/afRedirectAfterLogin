@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+
+    <elements>
+        <element type="text">
+            <name>afRedirectAfterLoginDomain</name>
+            <label lang="de">Link für Redirect nach Login</label>
+            <label lang="en">Redirectlink after Login</label>
+						<value>https://www.shopware.de</value>
+            <description lang="de">Absoluten Pfad hinterlegen um redirect zu gewährleisten</description>
+            <description lang="en">Please put the whole path in.</description>
+        </element>
+    </elements>
+
+</config>

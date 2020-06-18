@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">RedirectAfterLogin</label>
+    <label lang="en">RedirectAfterLogin</label>
+    <version>1.0.0</version>
+    <copyright>(c) by Alexander Froehling</copyright>
+    <license>free</license>
+    <link>mailto:alexander.froehling@googlemail.com</link>
+    <author>Alexander Froehling</author>
+		<description>
+						Ein einfaches Plugin um einen Redirect nach dem Login zu ermoeglichen.
+						Wie gehts?
+						-in der Pluginkonfiguration den absoluten Pfad hinterlegen
+						-Speichern und Cache löschen
+						-ausprobieren.
+
+						Getestet nur in Vanilla Shopware 5.6.6
+
+						*auch nur als schnelle Hilfe angedacht.
+		</description>
+
+    <compatibility minVersion="5.2.0" />
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erste Veröffentlichung</changes>
+        <changes lang="en">Initial Release</changes>
+    </changelog>
+</plugin>
