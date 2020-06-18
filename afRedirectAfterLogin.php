@@ -27,7 +27,7 @@ class afRedirectAfterLogin extends Plugin
 
 		public function onLogin(\Enlight_Hook_HookArgs $args)
 		{
-						$config = $this->container->get('shopware.plugin.cached_config_reader')->getByPluginName($this->getName());
+					  $config = $this->container->get('shopware.plugin.cached_config_reader')->getByPluginName($this->getName());
 						$afRedirectAfterLoginDomain = $config['afRedirectAfterLoginDomain'];
 						header("Location:". $afRedirectAfterLoginDomain);
 						$this->forward(
