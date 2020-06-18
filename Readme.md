@@ -1,5 +1,5 @@
-#Ein einfaches Plugin um einen Redirect nach dem Login zu ermoeglichen.
-##Wie gehts?
+# Ein einfaches Plugin um einen Redirect nach dem Login zu ermoeglichen.
+## Wie gehts?
 -in der Pluginkonfiguration den absoluten Pfad hinterlegen
 -Speichern und Cache löschen
 -ausprobieren.
